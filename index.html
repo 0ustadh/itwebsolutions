@@ -1,0 +1,420 @@
+<!--
+  My personal website for all of my projects! Enjoy!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For indexing/SEO -->
+  <meta name="description" content="Destinations just for you!">
+  <meta name=”robots” content="index, follow">
+  <title>IT Web Solutions - Portfolio Website</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap 5 CDN end -->
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome CDN end -->
+
+  <!-- W3.css -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+   <!-- W3.css end -->
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  defer></script>
+
+  <!-- Roboto thin Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="mywebpage.css">
+  <script defer src="mywebpage.js"></script>
+  
+</head>
+
+<body>
+
+  <!-- Responsive navbar -->
+  <nav class="w3-bar w3-black w3-card fixed-top" role="navigation">
+    <a href="#intro" class="w3-bar-item w3-button">Home</a>
+    <a href="#revs" class="w3-bar-item w3-button w3-hide-small">Reviews</a>
+    <a href="#news" class="w3-bar-item w3-button w3-hide-small">Blogs</a>
+    <a href="#projs" class="w3-bar-item w3-button w3-hide-small">Projects</a>
+    <a href="#svcs" class="w3-bar-item w3-button w3-hide-small">Services</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small" 
+    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click me for 
+    his contact details!">Contact</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small">About</a>
+    <a href="#footer" class="w3-bar-item w3-button w3-hide-small" 
+    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click for his 
+    Resume & Social media">CV & Social</a>
+    <a href="#" class="w3-bar-item w3-button btn btn-outline-primary">Build 
+      your page NOW!</a>
+      <a href="#" id="toggle" class="w3-bar-item w3-button w3-hide-small w3-white 
+      w3-right" onclick="toggleMode()" title="Click to switch to Light/Dark Mode"
+      >Light</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right 
+    w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+  </nav>
+  
+  <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large 
+  w3-hide-medium">
+    <a href="#revs" class="w3-bar-item w3-button">Reviews</a>
+    <a href="#news" class="w3-bar-item w3-button">Blogs</a>
+    <a href="#projs" class="w3-bar-item w3-button">Projects</a>
+    <a href="#svcs" class="w3-bar-item w3-button">Services</a>
+    <a href="#footer" class="w3-bar-item w3-button">Contact</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#footer" class="w3-bar-item w3-button">CV & Social</a>
+    <a href="#" id="toggle2" class="w3-bar-item w3-button w3-white 
+    w3-right" onclick="toggleMode()" title="Click to switch to Light/Dark Mode"
+    >Light</a>
+  </div>
+  <!-- Responsive navbar end -->
+
+  
+  <header role="banner">
+    <!-- Intro -->
+    <section id="intro" class="row text-white">
+      <div class="w3-left col p-5"><h1>Let's build your webpage of the 
+        future!</h1>
+        <small>And take it to the Sun and Moon!</small>
+        <button class="btn btn-outline-light d-block mt-3">Let's Build!</button>
+      </div>
+      <div class="col w3-right w3-center w3-padding-16 w3-opacity">
+        <div class="container" title="IT Web Solutions">
+          <svg height="400" width="400">
+            <circle cx="150" cy="135" r="128" stroke='white' stroke-width="5" 
+            fill='transparent'/>
+            <text x="100" y="180" fill="white" font-size="8rem">IT</text>
+          </svg>
+        </div>
+    </section>
+    <!-- Intro end -->
+  </header>
+
+  <main class="m-3" role="main">
+    <!-- Reviews -->
+    <section id="revs" class="m-5">
+      <!-- Why IT Web Solutions? -->
+      <article class="container-fluid text-center">
+        <div class="w3-row-padding mb-5">
+          <div class="w3-col s6 text-start px-5">
+            <h1>Why IT Web Solutions?</h1>
+            <p>Simple tools like screening questions and candidate rating help 
+              you quickly filter and prioritize only the most qualified 
+              candidates—so you can find the people you want to interview, 
+              faster. Copied from LinkedIn Landing Page.</p>
+          </div>
+          <div class="w3-col s6">
+            <h1>#1</h1>
+            <p>Webpage builder in the universe!</p>
+          </div>
+        </div>
+        <div class="w3-row-padding">
+          <div class="w3-col s6 m4 animate revealUp showme">
+            <img src="bgimg240p.png" alt="web development" class="img-fluid"/>
+            <p class="mt-3">Hand-coded work made with dedication</p>
+          </div>
+          <div class="w3-col s6 m4 animate revealUp showme delay1">
+            <img src="bground240p.png" alt="web development" class="img-fluid"/>
+            <p class="mt-3">Responsive, Mobile-friendly webpage</p>
+          </div>
+          <div class="w3-col s6 m4 mt-3 animate revealUp showme delay2">
+            <img src="bgimg240p.png" alt="web development" class="img-fluid"/>
+            <p class="mt-3">Free revisions until you're satisfied</p>
+          </div>
+        </div>
+        <div class="w3-center container-fluid animate revealUp showme delay1">
+          <button type="button" class="btn btn-outline-dark m-5 toggle">Let's 
+            build your website!</button>
+        </div>
+      </article>
+      <!-- Why IT Web Solutions? end -->
+      <!-- Award -->
+      <article class="container-fluid text-center mb-5 animate revealUp showme">
+        <blockquote><h1>Awarded "Most excellent web builder in the universe" 3 
+          times</h1><cite>Awarded by ISCP - Jupiter Campus on February 14, 
+            2022</cite></blockquote>
+      </article>
+      <!-- Award end -->
+      <h1 class="text-center">More people love our Services!</h1> 
+      <h3 class="text-center">Here's some of their reviews:</h3>
+      <!-- Carousel -->
+      <div class="w3-content w3-display-container animate revealUp showme 
+      text-white" style="max-width:800px">
+        <div class="mySlides1"><img src="first.png" style="width:100%">
+          <div class="w3-display-middle w3-large w3-container w3-padding-16 
+          contents">
+            <blockquote><h3>The best Website builder I've ever seen!</h3>
+              <cite>Satisfied customer</cite></blockquote>
+          </div>
+        </div>
+        <div class="mySlides1"><img src="second.png" style="width:100%">
+          <div class="w3-display-middle w3-large w3-container w3-padding-16 
+          contents">
+            <blockquote><h3>Thanks to him, I can reach more people with my 
+              website!</h3><cite>Mari Tess</cite></blockquote>
+          </div>
+        </div>
+        <div class="mySlides1"><img src="third.png" style="width:100%">
+          <div class="w3-display-middle w3-large w3-container w3-padding-16 
+          contents">
+            <blockquote><h3>Very Nice!!</h3><cite>BORAT</cite></blockquote>
+          </div>
+        </div>
+        <div class="w3-center w3-container w3-section w3-large w3-text-white 
+        w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1,0)">
+            &#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1,0)">
+            &#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" 
+          onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" 
+          onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" 
+          onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+      <div class="w3-center container-fluid">
+        <button type="button" class="btn btn-outline-dark m-5 toggle">Read 
+          More Stories</button>
+      </div>
+      <!-- Carousel end -->
+      <article class="mt-5 mb-1 spons container-fluid">
+        <h1 class="text-center mb-5">Worked with and Supported by:</h1>
+        <div class="w3-row-padding">
+          <div class="w3-col m4 mb-2 animate revealUp showme">
+              <a href="#"><img class="img-fluid rounded-circle" 
+                  src="iscp256.png" alt="International State College of the 
+                  Philippines" title='International State College of the 
+                  Philippines'/></a>
+          </div>
+          <div class="w3-col m4 mb-2 animate revealUp showme delay1">
+              <a href="#"><img class="img-fluid rounded-circle" 
+                  src="caloocanboy256.png" alt="Caloocan Boy tzy" 
+                  title='Caloocan Boy tzy'/></a>
+          </div>
+          <div class="w3-col m4 mb-2 animate revealUp showme delay2">
+              <a href="#"><img class="img-fluid rounded-circle" 
+                  src="borat256.png" alt="Borat" title='Borat'/></a>
+          </div>
+          <div class="w3-col m4 mt-3 animate revealUp showme">
+              <a href="#"><img class="img-fluid rounded-circle" 
+                src="anonymous.png" alt="Anonymous PH" title='Anonymous PH'
+                /></a>
+          </div>
+          <div class="w3-col m4 mt-3 animate revealUp showme delay1">
+              <a href="#" aria-label="Google"><img class="img-fluid 
+                rounded-circle" src='google 256.png' alt='Google' 
+                title='Google'/></a>
+          </div>
+          <div class="w3-col m4 mt-3 animate revealUp showme delay2">
+              <a href="#" aria-label="Microsoft"><img class="img-fluid 
+                rounded-circle" src="microsoft256.png" alt="Microsoft" 
+                title="Microsoft"/></a>
+          </div>
+      </div>
+      </article>
+    </section>
+    <hr/>
+    <!-- Reviews End -->
+
+    <!-- Blogs & News -->
+    <section id="news">
+      <h1 class="text-center">Blogs</h1>
+      <div class="w3-row-padding text-center">
+        <div class="w3-col m4 animate revealUp showme">
+          <div class='container'>
+            <img src="third.png" class="d-block w-100 img-fluid"/>
+            <div class="container">
+              <h1>Some Blog</h1>
+                <p>Kandhon ko kitabon ke bojh ne jhukaya. Rishvat dena to khud 
+                  papa ne sikhaya. 99% marks laoge to ghadi, warna chhadi.</p>
+                <button type="button" class="btn btn-outline-dark m-5 toggle">
+                  Read More</button>
+            </div>
+          </div>
+          </div>
+        <div class="w3-col m4 animate revealUp showme delay1">
+          <div class='container'>
+            <img src="second.png" class="img-fluid">
+            <div class="container">
+              <h1>Some Blog</h1>
+              <p>Likh likh pada hatheli par Alpha, Beta, Gama ka chala. 
+                Concentrated H2SO4 ne pura. Pura bachpan jala dala!</p>
+              <button type="button" class="btn btn-outline-dark m-5 toggle">
+                Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 animate revealUp showme delay2">
+          <div class="container">
+            <img src="first.png" class="img-fluid">
+            <h2>Some Blog</h2>
+            <p>Bachpan do gaya. Jawani pi gayi. Ek pal to ab hamen, jeene do! 
+              Jeene do!</p>
+            <button type="button" class="btn btn-outline-dark m-5 toggle">Read 
+              More</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid w3-center animate revealUp showme delay1">
+      <button type="button" class="btn btn-outline-dark m-5 toggle">Read More 
+        Blogs</button>
+      </div>
+    </section>
+    <hr/>
+
+    <!-- Projects -->
+    <section id="projs" class="linked">
+      <h1 class="mb-5 text-center">Projects Accomplished</h1>
+      <div class="row row-cols-md-4 card-deck gap-4 justify-content-center">
+        <div class="col-md-5 card p-3 animate revealUp showme">
+          <h3 class="text-dark"><a href="https://boyclashofclans.w3spaces.com/"
+             target="_blank">BOY COC</a></h3>
+          <iframe src="https://boyclashofclans.w3spaces.com/"></iframe>
+        </div>
+        <div class="col-md-5 card p-3 animate revealUp showme delay1">
+          <h3 class="text-dark">Hack.ers webpage</h3>
+        </div>
+        </div>
+      <div class="row row-cols-md-4 card-deck gap-4 justify-content-center 
+      mt-4">
+        <div class="col-md-5 card p-3 animate revealUp showme delay2">
+          <h3 class="text-dark">Conversion app</h3>
+        </div>
+      </div>
+    </section>
+    <hr/>
+    <!-- Projects end -->
+
+    <!-- Services Offered -->
+    <section id="svcs">
+      <h1 class="text-center">Services Offered:</h1>
+      <div class="w3-row-padding text-center">
+        <div class="w3-col m4 s6">
+          <div class='animate revealUp showme'>
+            <img src="bgimg240p.png" alt="web development" 
+            class="img-fluid"/>
+            <a href='#intro'><h2>Hand-coded Webpage Building</h2></a>
+          </div>
+        </div>
+        <div class="w3-col m4 s6 animate revealUp showme delay2">
+          <img src="wixbuilding.png" alt="Wix/GoDaddy Webpage Building" 
+          class="img-fluid"/>
+            <a href='#intro'><h2>Wix/Squarespace Webpage Building</h2></a>
+        </div>
+        <div class="w3-col m4 s6">
+          <div class='animate revealUp showme delay1'>
+            <img src="converting.png" alt="Convert image to HTML" 
+            class="img-fluid"/>
+            <a href='#intro'><h2>Convert PSD/PNG/Image to HTML</h2></a>
+          </div>
+        </div>
+        <div class="w3-col m4 s6">
+          <div class="animate revealUp showme delay2">
+            <img src="bugfixing.png" alt="Bug Fixing and Webpage improvements" 
+            class="img-fluid"/>
+            <a href='#intro'><h2>Bug Fixing and Webpage improvements</h2></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr/>
+    <!-- Services Offered end -->
+
+    <!-- About -->
+    <section id="about" class="text-center">
+      <h1 class="mt-5">About</h1>
+      <div class="container w3-padding-64">
+        <p class="h5 mb-5"><i><b>Disclaimer:</b> The contents here are only 
+          for the purpose of showing skills in web development and nothing 
+          else!</i></p>
+          <!-- Accordion here -->
+          <p class="w3-center accToggle" onclick="accordion('accordion');
+          accText('txt1')">Show <span id="txt1">More</span> <i class="fa 
+          fa-caret-down"></i></p>
+        <!-- Accordion content -->
+        <div class="w3-hide" id="accordion">
+        <!-- Logo -->
+        <div class="container mb-3" title="IT Web Solutions">
+          <img src="logo.png" alt="IT Web Solutions" class="rounded-circle 
+          img-fluid"/>
+        </div>
+        <!-- Logo end -->
+        <p class='h5'><i><b><a href=#>IT Web Solutions</a></b> is a fictional 
+          company created by <a href="#contact" aria-label="Founder">Ivan Dela 
+            Torre</a> for portfolio purposes and only just for fun. Offering 
+            great quality hand-coded webpages to his clients. Building webpages
+             with passion, dedication, creativity, and hard skills. Making sure 
+            that the work is of high quality, attractive, and effective for 
+            marketing.</i></p>
+      </div>
+      <!-- Accordion end -->
+      </div>
+    </section>
+    <hr/>
+    <!-- About end -->
+
+    <!-- Contact -->
+    <section id="contact" class="text-center">
+      <h1>Contact</h1>
+      <article class="mt-1">
+      <p class="text-center">Look for:</p>
+      <img src="logo.png" alt="Profile" class="rounded-circle img-fluid 
+      w3-centered animate revealUp showme"/>
+      <h3 class="text-center mt-3 animate revealUp showme delay1">Ivan Dela 
+        Torre</h3>
+      <div class="container-fluid p-3">
+        <h2><i class="fa fa-envelope"></i>  delatorreivanvincent19@gmail.
+          com</h2>
+        <h2><i class="fa fa-globe"></i> 
+          <a href='https://www.fiverr.com/ivanvincent019' target="_blank">
+            Fiverr</a></h2>
+      </div>
+      <div class="w3-dropdown-hover">
+      <button type="button" class="btn btn-outline-dark toggle"><a href="#" 
+        class="w3-bar-item">Download CV <i class="fa fa-caret-down"></i></a
+        ></button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">View CV</a>
+        </div>
+      </div>
+    </article>
+    </section>
+    <!-- Contact end -->
+
+  </main>
+
+  <footer class="w3-container w3-metro-black w3-center w3-margin-top" 
+  id="footer">
+    <p class="mt-3">Find me on social media.</p>
+    <a href='https://web.facebook.com/ivanvincent.delatorre.19/' 
+    target="_blank" aria-label="Facebook"><i class="fa fa-facebook-official 
+    w3-hover-opacity w3-xxlarge"></i></a>
+    <a href='https://www.instagram.com/ivdt_19/' target="_blank" 
+    aria-label="Instagram"><i class="fa fa-instagram w3-hover-opacity 
+    w3-xxlarge"></i></a>
+    <a href='https://twitter.com/IvanVincent019' target="_blank" 
+    aria-label="Twitter"><i class="fa fa-twitter w3-hover-opacity 
+    w3-xxlarge"></i></a>
+    <a href='https://www.linkedin.com/in/ivan-vincent-dela-torre-153384247/' 
+    target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin 
+    w3-hover-opacity w3-xxlarge"></i></a>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" 
+      target="_blank" aria-label="W3.css">w3.css</a></p>
+  </footer>
+
+</body>
+</html>
