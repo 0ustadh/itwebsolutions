@@ -20,164 +20,10 @@
         <!-- Font Awesome Icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- CDNs end -->
-        <style>
-            html{
-                width: 100%;
-                height: 100%;
-            }
-            body{
-                position: relative; 
-                /* body's position:relative for scrollspy */
-                font-family: 'Lucida Console', Monospace; 
-                /* This whole webpage font */
-            }
-
-            /* Header */
-            header {
-                color: #FFFFFF;
-                background-image:url(https://i.gifer.com/758Y.gif);
-            }
-            header .link{
-                padding-left: 1%;
-            }
-            header .container{
-                padding: 5rem 0;
-            }
-            #counter{
-                font-weight: 550;
-            }
-            /* Header end */
-
-            /* Navbar */
-            nav .fa{
-                font-size: larger;
-            }
-            /* Navbar end */
-
-            /* Main content */
-            section h1{
-                padding-bottom: 3rem;
-            }
-            #feats{
-                background: url(https://i.gifer.com/81RA.gif);
-                color: #FFFFFF;
-            }
-            #svcs{
-                background: url(https://i.gifer.com/758X.gif);
-                color: white;
-            }
-            #testm{
-                background:#0A0;
-                color:#FFFFFF;
-            }
-            #testm button{
-                margin-top: 2rem;
-            }
-            .carousel-inner img{
-                width: 100%;
-            }
-            #demo{
-                display: grid;
-                grid-template-columns: auto;
-                align-items: center;
-            }
-            cite:before {
-                content: '–';
-                margin-right: 5px;
-            }
-            #spons{
-                background: #353535;
-            }
-            #spons .icon{
-                font-size: 11rem;
-            }
-            @media all and (max-width: 575px){
-                #spons .icon{
-                font-size: 5rem;
-            }
-            }
-            /* Main content end */
-
-            /* Footer */
-            footer{
-                height: 9rem;
-                background-color: #343a40!important;
-                text-align: center;
-            }
-            .hack{
-                color: #DEDEDE;
-                }
-            .hack:hover{
-                color: white;
-                }
-            @media all and (max-width: 767px){
-                footer{
-                    height: 16rem;
-                }
-            }
-            /* Footer end */
-
-            #feats, #svcs, #testm, #spons{
-                padding: 8%;
-            }
-            .col{
-                padding-bottom: 2rem;
-            }
-
-            /* Bottom navbar */
-            .winbar{
-                margin: 0 30%;
-                opacity: 0.95;
-                backdrop-filter: blur(30px);
-                -webkit-backdrop-filter: blur(30px);
-            }
-            @media all and (max-width: 480px){
-                .winbar{
-                    margin: 0 20%;
-                }
-            }
-            /* Bottom navbar end */
-
-            /* Substitute for display class (.display-x) */
-              .display-sub, .display-sub-2, .dislay-sub-3{
-                font-size: 2rem
-              }
-              @media all and (min-width: 992px){
-                .display-sub{
-                font-size: 5.5rem
-               }
-               .display-sub-2{
-                font-size: 3.5rem;
-               }
-               .display-sub-3{
-                font-size: 4.5rem;
-               }
-              }
-            /* Substitute for display class end */
-        </style>
+        <link rel="stylesheet" href="hackers.css">
         <!-- <script> in <header> has defer attribute to load the HTML first
              before the JS codes -->
-        <script defer>
-            window.onload = function() {
-            // Hacked counter
-            let follower = document.getElementById('counter');
-            let i = 2000000-102;
-            let count = setInterval(function() {
-                i++;
-                follower.innerText = i;       
-                if(follower.innerText == 20000000000) {
-                    clearInterval(count);
-                }
-            }, 48);
-            // Hacked counter end
-            };
-
-            // Bootstrap 4 Tooltip initialization
-            $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-            });
-            // Bootstrap 4 Tooltip initialization end
-        </script>
+        <script src="hackers.js" defer></script>
     </head>
     <!-- <body> scrollspy attributes -->
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -407,8 +253,8 @@
                             icon"></i></a>
                     </div>
                     <div class="col">
-                        <a href="#" aria-label="Microsoft"><i class="fa fa-windows 
-                            icon"></i></a>
+                        <a href="#" aria-label="Microsoft"><i class="fa 
+                            fa-windows icon"></i></a>
                     </div>
                     <div class="col">
                         <a href="#" aria-label="Apple" class="text-white">
