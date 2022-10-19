@@ -1,0 +1,371 @@
+<!-- Made with W3.css -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For indexing/SEO -->
+  <meta name="description" content="Web Developer at your service!">
+  <meta name=”robots” content="index, follow">
+
+  <title>My CV / Resume</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Roboto thin Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Custom styles and scripts -->
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+
+<body>
+  <!-- W3.css Navbar -->
+  <nav class="w3-bar w3-black w3-card">
+    <a href="#" id="details" class="w3-bar-item w3-button" 
+    onclick="viewDetails()">Show Details</a>
+    <a href="#footer" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+    <div class="w3-dropdown-hover">
+      <a href="#" class="w3-button w3-hide-small">CV <i class="fa 
+        fa-caret-down"></i></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Computer Technician</a>
+        <a href="#" class="w3-bar-item w3-button">Web Developer</a>
+        <a href="#" class="w3-bar-item w3-button">Default CV</a>
+      </div>
+    </div>
+    <a href="#" id="toggle" class="w3-bar-item w3-button w3-hide-small w3-white 
+    w3-right" onclick="toggleMode()" title="Click to switch to Light/Dark Mode"
+    >Light</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right 
+    w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+  </nav>
+  
+  <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large 
+  w3-hide-medium">
+    <a href="#footer" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" id="toggle2" class="w3-bar-item w3-button w3-white"
+     onclick="toggleMode()" title="Click to switch to Light/Dark Mode">Light</a>
+     <div class="w3-dropdown-hover">
+      <a href="#" class="w3-button w3-hide-large w3-hide-medium">CV <i 
+        class="fa fa-caret-down"></i></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
+        <a href="#" class="w3-bar-item w3-button">Computer Technician</a>
+        <a href="#" class="w3-bar-item w3-button">Web Developer</a>
+        <a href="#" class="w3-bar-item w3-button">Default CV</a>
+      </div>
+    </div>
+  </div>
+  <!-- W3.css Navbar end -->
+
+  <!-- The Resume/CV (Main Content) -->
+  <main class="w3-margin-top">
+    
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+      
+        <!-- Left Column -->
+        <div class="w3-third">
+        
+          <div class="w3-text-grey w3-card-4">
+            <div class="w3-display-container">
+              <img src="prof256.png" style="width:100%" alt="Avatar">
+              <div class="w3-display-bottomleft w3-container w3-text-black">
+                <h2 class="w3-text-white">Ivan Vincent Dela Torre</h2>
+              </div>
+            </div>
+            <div class="w3-container w3-card">
+              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large 
+                darkgreen"></i>Front-end Web Developer
+                <br><small class="margin">Entry-level</small>
+              </p>
+              <p><i class="fa fa-home fa-fw w3-margin-right w3-large 
+                darkgreen"></i>Philippines</p>
+              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large 
+                darkgreen"></i>delatorreivanvincent19@gmail.com</p>
+              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large 
+                darkgreen"></i>(+63)966-546-3538</p>
+              <p><i class="fa fa-globe fa-fw w3-margin-right w3-large 
+                  darkgreen"></i><a href="https://0ustadh.github.io/itwebsolutions/">
+                    https://0ustadh.github.io/itwebsolutions/</a></p>
+              <hr>
+
+              <p class="w3-large"><b><i class="fa fa-user-o fa-fw 
+                w3-margin-right darkgreen"></i>About</b></p>
+              <p>He's an self-taught front-end developer with satisfactory 
+                skills in front-end web development. Building webpages with
+                passion, dedication, creativity, and hard skills. Making sure
+                that his work was meticulously made, pretty, and marketable!
+              </p>
+              <hr/>
+    
+              <p class="w3-large"><b><i class="fa fa-wrench fa-fw 
+                w3-margin-right darkgreen"></i>Skills</b></p>
+
+                 <div class="w3-show-inline-block">
+                  <div class="w3-bar w3-margin-bottom w3-margin-top">
+                    <button class="w3-button w3-border w3-hover-orange 
+                    w3-border-orange">HTML</button>
+                    <button class="w3-button w3-border w3-hover-blue 
+                    w3-border-blue">CSS</button>
+                    <button class="w3-button w3-border w3-hover-yellow 
+                    w3-border-yellow">JavaScript</button>
+                    <button class="w3-button w3-border w3-hover-purple 
+                    w3-border-purple">Bootstrap 3,4.5</button>
+                  </div>
+                  <div class="w3-bar w3-margin-bottom">
+                    <button class="w3-button w3-border w3-hover-white 
+                    w3-border-black">Git</button>
+                    <button class="w3-button w3-border w3-hover-indigo 
+                    w3-border-indigo">ReactJS</button>
+                    <button class="w3-button w3-border w3-hover-pink 
+                    w3-border-pink">SASS</button>
+                    <button class="w3-button w3-border w3-hover-teal 
+                    w3-border-teal">W3.css</button>
+                  </div>
+                  <div class="w3-bar w3-margin-bottom">
+                    <button class="w3-button w3-border w3-hover-green 
+                    w3-border-green">Responsive Web Design</button>
+                  </div>
+                </div>
+
+              <!-- Make it an Accordion -->
+              <p class="w3-center accToggle"onclick="accordion('accordion1');
+              accText('txt1')">Show <span id="txt1">More</span> <i class="fa 
+              fa-caret-down"></i></p>
+    
+              <!-- Accordion content -->
+              <div id="accordion1" class="w3-container w3-hide">
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Hardware and Software Installation</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Troubleshooting Techniques</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Memory Installation</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">LAN and WAN Configuration</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Specification Interpretation</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Computer Configurations</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Maintain and Repair Computer Systems 
+                <br>and Networks</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Safety Standards</button>
+                <button class="w3-button w3-border w3-border-purple 
+                w3-margin-bottom">Sales</button>
+                <button class="w3-button w3-border w3-border-yellow 
+                w3-margin-bottom w3-hover-yellow">Entrepreneurial 
+                Mindset</button>
+            </div>
+            <!-- Accordion end -->
+
+          </div>
+        </div>
+    
+        <!-- End Left Column -->
+        </div>
+    
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          
+          <div class="w3-container w3-card w3-margin-bottom">
+            <!-- Color white when dark mode, grey in light mode -->
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase 
+              fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
+              <span class="head">Work Experience</span></h2>
+              <!---->
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Computer Repairman / Freelancer
+              </b></h5>
+              <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                w3-margin-right"></i>July 2022 - <span class="w3-tag w3-green 
+                w3-round">Current</span></h6>
+                <ul>
+                  <li>Successfully installed and reinstalled Windows OS on his
+                     3 clients</li>
+                  <li>Successfully removed viruses and bloatware in 2 of his
+                     clients</li>
+                  <li>Made the desktops and laptops of his 3 clients 200% 
+                    faster by fixing software issues</li>
+                  <li>Himself is also a customer of his services</li>
+                </ul>
+              <hr>
+            </div>
+            
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Packer / JVR Bakeshop</b></h5>
+              <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                w3-margin-right"></i>Dec 2017 - Apr 2019</h6>
+                <ul>
+                  <li>Packs freshly baked bread for his bakery</li>
+                  <li>Made 300+ packs of bread everyday</li>
+                  <li>Made 10+ bundles of bread packs everyday with 25 packs 
+                    per bundle</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <!-- Accordion -->
+            <p class="w3-center accToggle" onclick="accordion('accordion2');
+            accText('txt2')">Show <span id="txt2">More</span> <i class="fa 
+            fa-caret-down"></i></p>
+
+            <div class="w3-container w3-hide" id="accordion2">
+              <!-- Add some content here later -->
+              <!-- Accordion content -->
+              <div>
+                <h5 class="w3-opacity"><b>Seller / Freelancer</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw 
+                  w3-margin-right"></i>Feb 2019 - Apr 2019</h6>
+                  <ul>
+                    <li>Sold 6 bundles of bread a day (exceeding the quota of 
+                      4/day</li>
+                    <li>Made those sales in just 4 hours per day</li>
+                  </ul>
+              </div>
+
+            </div>
+            <!-- Accordion end -->
+            
+          </div>
+    
+          <div class="w3-container w3-card">
+            <!-- Color white when dark mode, grey in light mode -->
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university 
+              fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
+              <span class="head">Education</span></h2>
+              <!---->
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+              <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                w3-margin-right"></i>February 2022 - <span class="w3-tag 
+                w3-green w3-round">Current</span></h6>
+              <p>Web Development! All I need to know in one place</p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Asia-Pacific College of Arts and
+                Management (ASPAC College) Inc.</b></h5>
+              <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                w3-margin-right"></i>May - June 2022</h6>
+              <p>Computer Systems Servicing NCII</p>
+              <hr>
+            </div>
+
+            <!-- Accordion here -->
+            <p class="w3-center accToggle" onclick="accordion('accordion3');
+            accText('txt3')">Show <span id="txt3">More</span> <i class="fa 
+            fa-caret-down"></i></p>
+
+            <!-- Accordion content -->
+            <div class="w3-container w3-hide" id="accordion3">
+              <h5 class="w3-opacity"><b>Alternative Learning System</b></h5>
+              <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                w3-margin-right"></i>July - November 2017</h6>
+              <p>Secondary Level</p>
+              <hr/>
+              <div>
+                <h5 class="w3-opacity"><b>Nuestra senora del Carmen 
+                  Institute</b></h5>
+                <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                  w3-margin-right"></i>2014 - 2017</h6>
+                <p>High School</p>
+                <hr/>
+              </div>
+              <div>
+                <h5 class="w3-opacity"><b>Liceo di san Lorenzo</b></h5>
+                <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                  w3-margin-right"></i>2013 - 2014</h6>
+                <p>High School</p>
+                <hr/>
+              </div>
+              <div>
+                <h5 class="w3-opacity"><b>Liceo di san Lorenzo</b></h5>
+                <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                  w3-margin-right"></i>2007 - 2013</h6>
+                <p>Elementary</p>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion end -->
+
+          <div class="w3-container w3-card w3-margin-top">
+            <!-- Color white when dark mode, grey in light mode -->
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-trophy
+               fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
+               <span class="head">Awards and Achievements</span></h2>
+               <!---->
+               <div class="w3-container">
+                <h3 class="w3-opacity darkgreen"><b>Achievement</b></h3>
+                <h5 class="w3-opacity"><b>Seller / Freelancer</b></h5>
+                <h6 class="darkgreen"><i class="fa fa-calendar fa-fw 
+                  w3-margin-right"></i>February - April 2019 </h6>
+                <p>Sold 6 bundles of bread a day (Quota is 4/day)</p>
+              </div>
+          </div>
+
+          <div class="w3-container w3-card w3-margin-top">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-powerpoint-o 
+              fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
+               <span class="head">Projects<i class="w3-right fa fa-caret-down 
+                accToggle" onclick="accordion('accordion4')"></i></span></h2>
+               
+            <div id="accordion4" class="w3-container w3-hide">
+              <!-- Projects Grid (3 per row) -->
+              <article class="w3-row">
+                <div class="w3-half w3-padding-16">
+                  <h3><a href="/boycoc/index.html" target="_blank">
+                    BOY COC</a></h3>
+                  <iframe src="/boycoc/index.html"></iframe>
+                </div>
+                <div class="w3-half w3-padding-16">
+                  <h3><a href="/hackerssite/index.html">Hack.ers webpage</a>
+                  </h3>
+                  <iframe src="/hackerssite/index.html"></iframe>
+                </div>
+                </article>
+                <article class="w3-row">
+                <div class="w3-half w3-padding-16">
+                  <h3><a href="/conversionapp/index.html">Conversion app</a>
+                  </h3>
+                  <iframe src="/conversionapp/index.html"></iframe>
+                </div>
+              </article>
+            </div>
+          </div>
+    
+        <!-- End Right Column -->
+        </div>
+        
+      <!-- End Grid -->
+      </div>
+      
+      <!-- End Page Container -->
+    </main>
+  <!-- CV end -->
+
+  <footer class="w3-container w3-metro-black w3-center w3-margin-top" 
+  id="footer">
+    <p>Find me on social media.</p>
+    <a href='https://web.facebook.com/ivanvincent.delatorre.19/' target="_blank"
+    ><i class="fa fa-facebook-official w3-hover-opacity w3-xxlarge"></i></a>
+    <a href='https://www.instagram.com/ivdt_19/' target="_blank"><i class="fa 
+      fa-instagram w3-hover-opacity w3-xxlarge"></i></a>
+    <a href='https://twitter.com/IvanVincent019' target="_blank"><i class="fa 
+      fa-twitter w3-hover-opacity w3-xxlarge"></i></a>
+    <a href='https://www.linkedin.com/in/ivan-vincent-dela-torre-153384247/' 
+    target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-xxlarge"></i></a>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" 
+      target="_blank">w3.css</a></p>
+  </footer>
+
+</body>
+</html>
