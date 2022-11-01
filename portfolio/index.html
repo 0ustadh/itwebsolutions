@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- For indexing/SEO -->
-  <meta name="description" content="Web Developer at your service!">
-  <meta name=”robots” content="index, follow">
+  <meta name="description" content="Ivan's CV">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ivan Dela Torre">
+  <meta name="keywords" content="Resume, CV">
 
   <title>My CV / Resume</title>
 
    <!-- Icon on title bar -->
    <link rel="icon" href="logo.png" type="image/icon type">
 
+  <!-- W3.css -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,6 +53,7 @@
     w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
   </nav>
   
+  <!-- Displayed when viewport size is below 768px, such as phones -->
   <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large 
   w3-hide-medium">
     <a href="#footer" class="w3-bar-item w3-button">Contact</a>
@@ -135,7 +139,7 @@
                   </div>
                 </div>
 
-              <!-- Make it an Accordion -->
+              <!-- Left column Accordion -->
               <p class="w3-center accToggle"onclick="accordion('accordion1');
               accText('txt1')">Show <span id="txt1">More</span> <i class="fa 
               fa-caret-down"></i></p>
@@ -165,7 +169,7 @@
                 w3-margin-bottom w3-hover-yellow">Entrepreneurial 
                 Mindset</button>
             </div>
-            <!-- Accordion end -->
+            <!-- Left column Accordion end -->
 
             <p>Soft Skills:</p>
             <div class="w3-show-inline-block">
@@ -211,9 +215,10 @@
     
         <!-- Right Column -->
         <div class="w3-twothird">
-          
+          <!-- Work Experience -->
           <div class="w3-container w3-card w3-margin-bottom">
-            <!-- Color white when dark mode, grey in light mode -->
+            <!-- (Work Experience Header) 
+              Color white when dark mode, grey in light mode -->
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase 
               fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
               <span class="head">Work Experience</span></h2>
@@ -249,7 +254,7 @@
             </div>
             <hr/>
 
-            <!-- Accordion -->
+            <!-- Work Experience Accordion -->
             <p class="w3-center accToggle" onclick="accordion('accordion2');
             accText('txt2')">Show <span id="txt2">More</span> <i class="fa 
             fa-caret-down"></i></p>
@@ -269,12 +274,14 @@
               </div>
 
             </div>
-            <!-- Accordion end -->
-            
+            <!-- Work Experience Accordion end -->
+            <!-- Work Experience end -->
           </div>
     
+          <!-- Education -->
           <div class="w3-container w3-card">
-            <!-- Color white when dark mode, grey in light mode -->
+            <!-- (Education header) 
+              Color white when dark mode, grey in light mode -->
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university 
               fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
               <span class="head">Education</span></h2>
@@ -296,7 +303,7 @@
               <hr>
             </div>
 
-            <!-- Accordion here -->
+            <!-- Education Accordion here -->
             <p class="w3-center accToggle" onclick="accordion('accordion3');
             accText('txt3')">Show <span id="txt3">More</span> <i class="fa 
             fa-caret-down"></i></p>
@@ -331,10 +338,13 @@
               </div>
             </div>
           </div>
-          <!-- Accordion end -->
+          <!-- Education Accordion end -->
+          <!-- Education end -->
 
+          <!-- Awards & Achievements -->
           <div class="w3-container w3-card w3-margin-top">
-            <!-- Color white when dark mode, grey in light mode -->
+            <!-- (Awards and Achievements header) 
+              Color white when dark mode, grey in light mode -->
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-trophy
                fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
                <span class="head">Awards and Achievements</span></h2>
@@ -347,7 +357,9 @@
                 <p>Sold 6 bundles of bread a day (Quota is 4/day)</p>
               </div>
           </div>
+          <!-- Awards & Achievements end -->
 
+          <!-- Projects -->
           <div class="w3-container w3-card w3-margin-top">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-powerpoint-o 
               fa-fw w3-margin-right w3-xxlarge darkgreen"></i>
@@ -355,7 +367,7 @@
                 accToggle" onclick="accordion('accordion4')"></i></span></h2>
                
             <div id="accordion4" class="w3-container w3-hide">
-              <!-- Projects Grid (3 per row) -->
+              <!-- Projects Grid (2 per row) -->
               <article class="w3-row">
                 <div class="w3-half w3-padding-16">
                   <h3><a href="https://0ustadh.github.io/itwebsolutions/boycoc/index.html" target="_blank">BOY COC</a></h3>
@@ -378,7 +390,7 @@
               </article>
             </div>
           </div>
-    
+          <!-- Projects end -->
         <!-- End Right Column -->
         </div>
         
