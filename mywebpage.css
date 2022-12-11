@@ -1,21 +1,21 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family:"Roboto", sans-serif}
 
 a{text-decoration:none;}
-::selection{background-color:darkgreen; color:white;}
-.darkgreen, a:hover{color:darkgreen;}
+::selection{background-color:darkgreen;color:white}
+.darkgreen, a:hover{color:darkgreen}
 
 /* Main Content */
-main{max-width:1400px;}
-.accToggle{cursor:pointer;}
-.margin{margin-left:2.65rem;}
-.logo{max-width:300px;}
+main{max-width:1400px}
+.accToggle{cursor:pointer}
+.margin{margin-left:2.65rem}
+.logo{max-width:300px}
 #intro{
   background-image: url('bgimg.jpg');
   background-size: cover;
   padding: 20% 1% 20% 5%;
 }
-#contact{word-wrap: break-word;}
-.spons .icon{font-size:11rem;margin:8px;}
+#contact{word-wrap:break-word}
+.spons .icon{font-size:11rem;margin:8px}
 /* Slides */
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -27,20 +27,14 @@ main{max-width:1400px;}
     -webkit-transition: all 0.5s ease; 
     transition: all 0.5s ease;
   }
-  .revealUp{
-    opacity: 0;
-  }
+  .revealUp{opacity:0}
   .showme {
     opacity:1!important;
     -webkit-transform: translateY(2%);
     transform: translateY(2%);
   }
-  .delay1{
-    transition-delay: 0.2s;
-  }
-  .delay2{
-    transition-delay: 0.4s;
-  }
+  .delay1{transition-delay:0.2s}
+  .delay2{transition-delay:0.4s}
   /* Animations end */
   /* Contents */
   .fit{
@@ -56,5 +50,5 @@ main{max-width:1400px;}
 /* Main Content end */
 
 /* Dark Mode */
-.card-dark{background-color:#121212; color:white;}
+.card-dark{background-color:#121212;color:white}
 /* Dark Mode end */
